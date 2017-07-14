@@ -1,0 +1,19 @@
+ body {
+   background-color: #f8fbfd;
+   color: #4270a3;
+   font-family: 'Verdana', sans_serif;
+   font-size: 16px;
+   margin: 0;
+}
+
+
+#header {
+  height: 4em;
+  width: 100%;
+  background-color: #f8fbfd;
+}
+
+
+.logo {
+  width: 8em;
+}

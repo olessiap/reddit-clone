@@ -1,0 +1,7 @@
+<h1>POST</h1>
+
+<h2> Post Title: <%= @post.title %> </h2>
+<h4> Top 20 Comments: </4>
+    <%@post.comments.each do |co| %>
+      <p> <%= co.votes %>     <%= co.body %></p>
+      <% end %>

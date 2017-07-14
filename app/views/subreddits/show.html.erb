@@ -1,0 +1,9 @@
+<h1>subreddit name: <%=@subreddit.name %> </h1>
+
+<h4>subreddit description: <%=@subreddit.description %> </h4>
+
+
+  <h2> Top 20 Posts: </h2>
+<% @subreddit.posts.each do |post| %>
+  <p><%= post.votes %>  <%= post.title %> </p>
+  <% end %>
