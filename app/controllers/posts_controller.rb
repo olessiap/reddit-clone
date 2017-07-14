@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  layout "posts"
+  #layout "posts"
 
   def index
     p params

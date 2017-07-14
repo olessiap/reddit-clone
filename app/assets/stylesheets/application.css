@@ -1,17 +1,24 @@
  body {
-   background-color: #f8fbfd;
+   background-color: #FAFAFA;
    color: #4270a3;
    font-family: 'Verdana', sans_serif;
    font-size: 16px;
    margin: 0;
 }
 
+li {
+  display: inline-block;
+  margin: 1.4em 1em;/* (top & bottom) (left & right) */
+  text-transform: uppercase;
+
+ }
 
 #header {
   height: 4em;
   width: 100%;
-  background-color: #f8fbfd;
+  background-color: #EFF7FF;
 }
+
 
 
 .logo {

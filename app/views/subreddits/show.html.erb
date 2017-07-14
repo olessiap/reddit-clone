@@ -5,5 +5,15 @@
 
   <h2> Top 20 Posts: </h2>
 <% @subreddit.posts.each do |post| %>
-  <p><%= post.votes %>  <%= post.title %> </p>
+  <p class="title">
+    <%= post.votes %>  <%= post.title %>
+  </p>
   <% end %>
+
+  <div class="container-fluid">
+        <% @subreddit.posts.each do |post| %>
+        <div class="row">
+        <div class="col-xs-6"><%= post.votes %> <%= post.title %> </div>
+      </div>
+      <% end %>
+  </div>
